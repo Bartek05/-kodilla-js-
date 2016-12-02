@@ -7,8 +7,7 @@ var allNames = femaleNames.concat(maleNames);
 var newName = 'Marian'
 
 if (allNames.indexOf(newName) === -1) {
-	console.log (newName);
+	allNames.push(newName);
+		
 }
-var allNames = ["Asia", "Kasia", "Ola", "Jola", "Piotrek", "Marek", "Arek", "Jarek"];
-allNames[8] = 'Marian';
 	console.log (allNames);
