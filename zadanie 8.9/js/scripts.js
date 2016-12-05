@@ -1,4 +1,4 @@
-function rysujChoinkę(rows) {
+function rysujChoinke(rows) {
 	for (var i = 1 ; i <= rows; i++) {
 		var star = '';
 		for (var n = 1 ; n <= i*2-1; n++) {
@@ -9,4 +9,4 @@ function rysujChoinkę(rows) {
 		console.log(star)
 	}
 }
-rysujChoinkę(5);
+rysujChoinke(5);
