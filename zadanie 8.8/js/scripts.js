@@ -1,6 +1,6 @@
 var text = 'Papugi koszą trawę, unosząc się nad ziemią 15 centymetrów, na czerwonych dywanach.';
 var animal = 'Zielone słonie';
-var animal = animal.toUpperCase();
+	animal = animal.toUpperCase();
 
 var textNew = text.replace('Papugi', animal);
  
